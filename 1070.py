@@ -1,5 +1,5 @@
 def function(x:int):
-    for _ in range(6):
+    for _ in range(1,7):
         if x%2 == 0: x+=1
         print(x)
         if x%2 != 0: x+=2
